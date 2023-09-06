@@ -1,0 +1,69 @@
+(n_n_p_env) luki@DESKTOP-7HHG0AN:/mnt/x/programowanie/Pythonex/n-n-p/DeepLearningforComputerVisionwithPythonandTensorFlow/part2$ python street_signs_example.py
+2023-08-25 12:55:08.841478: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+2023-08-25 12:55:12.359141: I tensorflow/compiler/xla/stream_executor/cuda/cuda_gpu_executor.cc:981] could not open file to read NUMA node: /sys/bus/pci/devices/0000:01:00.0/numa_node
+Your kernel may have been built without NUMA support.
+2023-08-25 12:55:12.828299: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1960] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+Found 35288 images belonging to 43 classes.
+Found 3921 images belonging to 43 classes.
+Found 12630 images belonging to 43 classes.
+Epoch 1/15
+552/552 [==============================] - ETA: 0s - loss: 0.5287 - accuracy: 0.8494   
+Epoch 1: val_accuracy improved from -inf to 0.94772, saving model to ./Models
+552/552 [==============================] - 658s 1s/step - loss: 0.5287 - accuracy: 0.8494 - val_loss: 0.1652 - val_accuracy: 0.9477
+Epoch 2/15
+552/552 [==============================] - ETA: 0s - loss: 0.0808 - accuracy: 0.9743   
+Epoch 2: val_accuracy improved from 0.94772 to 0.98623, saving model to ./Models
+552/552 [==============================] - 652s 1s/step - loss: 0.0808 - accuracy: 0.9743 - val_loss: 0.0449 - val_accuracy: 0.9862
+Epoch 3/15
+552/552 [==============================] - ETA: 0s - loss: 0.0466 - accuracy: 0.9848   
+Epoch 3: val_accuracy improved from 0.98623 to 0.98750, saving model to ./Models
+552/552 [==============================] - 608s 1s/step - loss: 0.0466 - accuracy: 0.9848 - val_loss: 0.0407 - val_accuracy: 0.9875
+Epoch 4/15
+552/552 [==============================] - ETA: 0s - loss: 0.0362 - accuracy: 0.9883  
+Epoch 4: val_accuracy did not improve from 0.98750
+552/552 [==============================] - 649s 1s/step - loss: 0.0362 - accuracy: 0.9883 - val_loss: 0.1354 - val_accuracy: 0.9651
+Epoch 5/15
+552/552 [==============================] - ETA: 0s - loss: 0.0334 - accuracy: 0.9889   
+Epoch 5: val_accuracy did not improve from 0.98750
+552/552 [==============================] - 644s 1s/step - loss: 0.0334 - accuracy: 0.9889 - val_loss: 0.0717 - val_accuracy: 0.9768
+Epoch 6/15
+552/552 [==============================] - ETA: 0s - loss: 0.0315 - accuracy: 0.9908      
+Epoch 6: val_accuracy improved from 0.98750 to 0.99056, saving model to ./Models
+552/552 [==============================] - 616s 1s/step - loss: 0.0315 - accuracy: 0.9908 - val_loss: 0.0424 - val_accuracy: 0.9906
+Epoch 7/15
+552/552 [==============================] - ETA: 0s - loss: 0.0273 - accuracy: 0.9919  
+Epoch 7: val_accuracy did not improve from 0.99056
+552/552 [==============================] - 597s 1s/step - loss: 0.0273 - accuracy: 0.9919 - val_loss: 0.0592 - val_accuracy: 0.9832
+Epoch 8/15
+552/552 [==============================] - ETA: 0s - loss: 0.0212 - accuracy: 0.9933   
+Epoch 8: val_accuracy improved from 0.99056 to 0.99388, saving model to ./Models
+552/552 [==============================] - 656s 1s/step - loss: 0.0212 - accuracy: 0.9933 - val_loss: 0.0217 - val_accuracy: 0.9939
+Epoch 9/15
+552/552 [==============================] - ETA: 0s - loss: 0.0258 - accuracy: 0.9928       
+Epoch 9: val_accuracy did not improve from 0.99388
+552/552 [==============================] - 622s 1s/step - loss: 0.0258 - accuracy: 0.9928 - val_loss: 0.0780 - val_accuracy: 0.9811
+Epoch 10/15
+552/552 [==============================] - ETA: 0s - loss: 0.0232 - accuracy: 0.9929  
+Epoch 10: val_accuracy did not improve from 0.99388
+552/552 [==============================] - 623s 1s/step - loss: 0.0232 - accuracy: 0.9929 - val_loss: 0.0349 - val_accuracy: 0.9929
+Epoch 11/15
+552/552 [==============================] - ETA: 0s - loss: 0.0169 - accuracy: 0.9947       
+Epoch 11: val_accuracy did not improve from 0.99388
+552/552 [==============================] - 688s 1s/step - loss: 0.0169 - accuracy: 0.9947 - val_loss: 0.0671 - val_accuracy: 0.9806
+Epoch 12/15
+552/552 [==============================] - ETA: 0s - loss: 0.0150 - accuracy: 0.9955   
+Epoch 12: val_accuracy did not improve from 0.99388
+552/552 [==============================] - 680s 1s/step - loss: 0.0150 - accuracy: 0.9955 - val_loss: 0.0412 - val_accuracy: 0.9901
+Epoch 13/15
+552/552 [==============================] - ETA: 0s - loss: 0.0216 - accuracy: 0.9942   
+Epoch 13: val_accuracy improved from 0.99388 to 0.99464, saving model to ./Models
+552/552 [==============================] - 649s 1s/step - loss: 0.0216 - accuracy: 0.9942 - val_loss: 0.0275 - val_accuracy: 0.9946
+Epoch 14/15
+552/552 [==============================] - ETA: 0s - loss: 0.0162 - accuracy: 0.9950      
+Epoch 14: val_accuracy did not improve from 0.99464
+552/552 [==============================] - 665s 1s/step - loss: 0.0162 - accuracy: 0.9950 - val_loss: 0.0560 - val_accuracy: 0.9865
+Epoch 15/15
+552/552 [==============================] - ETA: 0s - loss: 0.0137 - accuracy: 0.9959   
+Epoch 15: val_accuracy did not improve from 0.99464
+552/552 [==============================] - 640s 1s/step - loss: 0.0137 - accuracy: 0.9959 - val_loss: 0.0488 - val_accuracy: 0.9878
